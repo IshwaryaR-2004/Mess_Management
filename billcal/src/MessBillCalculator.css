@@ -1,0 +1,115 @@
+.calculator {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.form-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.form-group input {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.form-group input[type="text"] {
+  flex: 2;
+}
+
+.form-group input[type="number"] {
+  width: 120px;
+}
+
+button {
+  padding: 0.75rem 1.5rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+button:disabled {
+  background-color: #cccccc;
+}
+
+.summary {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.total {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.per-student {
+  font-size: 1.2rem;
+  text-align: right;
+  margin-top: 0.5rem;
+  color: #555;
+}
+
+.calculate-section {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.calculate-button {
+  background-color: #2196F3;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.calculate-button:hover {
+  background-color: #0b7dda;
+}
+
+.calculation-status {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  border-radius: 4px;
+  font-weight: bold;
+  white-space: pre-line;
+}
+
+.loading, .error {
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.2rem;
+}
+
+.error {
+  color: #ff3333;
+}
